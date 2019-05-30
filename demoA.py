@@ -13,4 +13,5 @@ obj = json.loads(r.text)
 
 city = obj['name']
 icon = obj['weather'][0]['icon']
-humid = obj['main']['humidity']
+humid = obj['main']['humidity'] //这里是2
+
